@@ -36,6 +36,7 @@ function showPictures(data) {
 
   let nextPhoto = document.getElementById("btn");
   nextPhoto.onclick = function () {
+    photoContainer.innerHTML = ""
     currentPicIndex += 1;
 
     if (currentPicIndex >= 5) {
